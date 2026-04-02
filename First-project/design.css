@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.main-container {
+    background-color: hsl(30, 54%, 90%);
+    width: 1440px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: 10px solid white;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+img{
+    background-color: hsl(30, 54%, 90%);
+    width: 590px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: hsl(0, 0%, 100%);
+    /* margin-left: 10px;
+    margin-top: 20px; */
+    margin: 10px;
+    align-items: center;
+
+}
+
+.header p {
+    margin-top: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation {
+    margin-top: 20px;
+    background-color: hsl(30, 54%, 90%);
+    padding: 25px;
+}
+
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.preparation ul b{
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation ul{
+    color: hsl(30, 10%, 34%);
+    padding-left: 25px;
+}
+
+.ingriedents {
+    margin-top: 20px;
+    color: hsl(30, 54%, 90%);
+}
+
+.ingriedents h2{
+    color: hsl(14, 45%, 36%);
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.ingriedents ul{
+    color: hsl(30, 10%, 34%);
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+
+.instructions h2{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+}
+
+.instructions ol b {
+    color: hsl(30, 10%, 34%)
+}
+
+.instructions ol{
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.nutrition p{
+    margin-bottom: 20px;
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calories {
+    color: hsl(30, 10%, 34%);
+}
+
+.value1 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.values {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carbs {
+    color: hsl(30, 10%, 34%);
+}
+
+.value2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.filling {
+    display: flex;
+    justify-content: space-around;
+}
+
+.protein {
+    color: hsl(30, 10%, 34%);
+}
+
+.value3 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.fillings {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fat {
+    color: hsl(30, 10%, 34%);
+}
+
+.value4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
